@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: pink;
+    color: white;
+}
+
+.contenedor {
+    width: 100%;
+    height: 100vh;
+
+    
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgba(255, 0, 191, 0.182) ;
+ 
+    
+}
+.nav-list{
+    
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0 30px;
+  
+   
+}
+
+.nav-list a {
+    color: rgba(255, 0, 0, 0.451);
+
+}
+.nav-link{
+  
+    text-decoration-line: none;
+    font-size: 22px;
+}
+
+.tanga1 {
+    margin:  0 30px;
+    height: 90%;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    gap: 200px ;
+    justify-content: space-between;
+}
+
+.lading_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    height: 84vh;
+    padding:  0 20px;
+    
+    width: 100%;
+    margin-left: 200px;
+    
+    
+}
+
+.texto  {
+    font-size:  1.6rem;
+}
+
+.buton{
+    font-size:  1.2rem;
+}
+
+.tanga2{
+  
+    border-radius: 20px;
+    height: 50vh;
+    margin-right: 10%;
+    
+    
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.buton{
+
+    border-radius: 10px;
+    width: 20vh;
+    height: 5vh;
+
+}
